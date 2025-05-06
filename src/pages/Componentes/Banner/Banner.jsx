@@ -5,7 +5,7 @@ import Bannershap from '../../../assets/BannerShap01/Bannershap.jsx'
 
 const Banner = () => {
     return (
-        <div className='container mx-auto'>
+        <div className='w-[1440px] mx-auto'>
             <div className="grid grid-cols-2 justify-between items-center">
                 <div>
                     <h1 className="font-manajari text-[70px] font-bold leading-[96px] text-[#27233A]">

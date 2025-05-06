@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 const Header = () => {
     return (
-        <div className="flex items-center container mx-auto">
+        <div className="flex items-center w-[1440px] mx-auto">
             <div className="w-[20%]">
                 <img src={logo} alt="" />
             </div>

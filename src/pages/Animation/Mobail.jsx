@@ -42,7 +42,7 @@ const Mobail = () => {
 
 
     return (
-        <div className='container mx-auto mt-5'>
+        <div className='w-[1440px] mx-auto mt-5'>
             <div className='grid grid-cols-2'>
                 <section>
                     <h2 className='font-medium font-Poppins text-[55px] leading-[85px] w-[516px] mb-[17px]'>One Mobile App For Your Lovely Pet</h2>

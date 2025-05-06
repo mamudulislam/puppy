@@ -6,7 +6,6 @@ const Footer = () => {
     return (
         <footer className="bg-gray-50 text-gray-700 px-6 md:px-20 py-10">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-                {/* Logo and Description */}
                 <div>
                     <div className="flex items-center mb-4">
                         <img src={logo} alt="Puppy Potty Log" className="w-[220px] h-[79px] mr-2" />
@@ -16,8 +15,6 @@ const Footer = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationt.
                     </p>
                 </div>
-
-                {/* Quick Links */}
                 <div>
                     <h4 className="font-Poppins text-2xl font-medium mb-[48px] mt-5">Quick Links</h4>
                     <ul className="space-y-2 text-sm">
@@ -28,8 +25,6 @@ const Footer = () => {
                         <li><a href="#" className="hover:text-orange-400 font-Poppins text-[16px] font-normal leading-[24px]">Products</a></li>
                     </ul>
                 </div>
-
-                {/* Download App */}
                 <div>
                     <h4 className="font-Poppins text-2xl font-medium mb-[56px] mt-5">Download Our App</h4>
                     <p className="font-Poppins text-[18px] w-[270px] font-normal leading-[28px] mb-[43px]">
