@@ -5,7 +5,7 @@ import phone3 from '../../assets/Creenshots/phone56.png'
 
 const Appscreenshots = () => {
     return (
-        <div className='container mx-auto'>
+        <div className='w-[1440px] mx-auto'>
             <p className='font-Manjari font-medium text-[24px] text-center mb-2 '>Screenshots</p>
             <h2 className='font-Poppins font-semibold text-[30px] text-center mb-[95px]'>App Screenshots</h2>
             <div className='flex items-center justify-center gap-[25px] mb-[146px]'>

@@ -3,7 +3,7 @@ import Download from '../../assets/Download/Download.png'
 
 const DownloadTrackingSheet = () => {
     return (
-        <section className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 p-8 bg-white">
+        <section className="w-[1440px] max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 p-8 bg-white">
             {/* Left Side */}
             <div className="max-w-lg">
                 <h2 className="w-[650px] font-Poppins font-medium leading-[80px] text-[55px]">

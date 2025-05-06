@@ -10,7 +10,7 @@ import '../Productslid/style.css';
 
 const Productslid = () => {
     return (
-        <div className="container mx-auto px-4 relative">
+        <div className="w-[1440px] mx-auto px-4 relative">
             <div className="mt-[180px] text-center">
                 <p className="font-Manjari text-[24px] font-normal">Supplies</p>
                 <h2 className="font-Poppins text-[30px] font-semibold mt-[9px] mb-[73px]">
