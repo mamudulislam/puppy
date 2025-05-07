@@ -23,7 +23,7 @@ const services = [
 
 const DogServices = () => {
     return (
-        <div className="flex flex-col md:flex-row justify-center items-stretch gap-6 p-[12px] mt-20 bg-gray-50">
+        <div className="container flex flex-col md:flex-row justify-center items-stretch gap-6 p-[12px] mt-20 bg-gray-50">
             {services.map((service, idx) => (
                 <div
                     key={idx}

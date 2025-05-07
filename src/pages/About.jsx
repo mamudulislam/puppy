@@ -3,7 +3,7 @@ import dogTrainerImage from "../assets/DogTrainerImage/DogTrainerImage.png";
 
 const About = () => {
     return (
-        <div className="w-[1440px] mx-auto">
+        <div className="container">
             < div className="text-center px-4 md:px-0 mt-10" >
                 <p className="text-gray-600 text-xl md:text-2xl font-medium">About Us</p>
                 <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 font-Poppins mt-2 leading-snug">

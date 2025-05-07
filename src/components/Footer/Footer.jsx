@@ -4,7 +4,7 @@ import Googleplay from "../../assets/Appfolder/PlayStore.png"
 import Appstore from "../../assets/Appfolder/Appstore.png"
 const Footer = () => {
     return (
-        <footer className="bg-gray-50 text-gray-700 px-6 md:px-20 py-10">
+        <footer className="container bg-gray-50 text-gray-700 px-6 md:px-20 py-10">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
                 <div>
                     <div className="flex items-center mb-4">

@@ -3,7 +3,7 @@ import logo from '../../assets/Logo/Logo.png';
 import LinkList from '../Header/Listlink';
 import { Button } from "@/components/ui/button"
 import { useEffect, useState } from 'react';
-
+import { TiThMenu } from "react-icons/ti";
 const Header = () => {
     const [shonav, setShonav] = useState(false)
 
@@ -23,11 +23,12 @@ const Header = () => {
     }, [])
     return (
         <nav className={shonav ? "StickyNavbar" : ""}>
-            <div className="flex items-center w-[1440px] mx-auto pt-2.5">
-                <div className="w-[20%]">
+            <div className="flex items-center justify-between md:justify-normal container pt-2.5">
+                <div className="w-[40%] md:w-[20%]">
                     <img src={logo} alt="" />
                 </div>
-                <div className="w-[60%]">
+                <TiThMenu className='md:hidden' size={20} />
+                <div className="w-[60%] hidden md:block">
                     <ul className="flex gap-x-[30px] justify-center">
                         {LinkList.map(link => (
                             <li key={link.id}>
@@ -38,7 +39,7 @@ const Header = () => {
                         ))}
                     </ul>
                 </div>
-                <div className="w-[20%] space-x-4 text-end">
+                <div className="w-[20%] space-x-4 text-end hidden md:block">
                     <Button className="bg-[#F9CE3B] hover:bg-[#F9CE3B] font-Poppins px-[20px] py-[20px]">Sign Up</Button>
                     <Button className="bg-[#F9CE3B] hover:border-2 hover:bg-[#fff] hover:text-[#F9CE3B] font-Poppins px-[20px] py-[20px]">Log In</Button>
                 </div>
