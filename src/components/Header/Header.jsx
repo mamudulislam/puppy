@@ -18,7 +18,7 @@ const Header = () => {
             }
         }
         window.addEventListener("scroll", StickyNavbar)
-        // clenup funtion
+        // cleanup funtion
         return () => window.removeEventListener('scroll', StickyNavbar)
     }, [])
     return (
